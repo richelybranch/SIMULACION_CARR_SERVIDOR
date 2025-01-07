@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "numeroCorredores": 2,
+    "distancia": 100,
+    "corredores": [
+      {
+        "id": 1,
+        "velocidad": 17,
+        "progreso": 102
+      },
+      {
+        "id": 2,
+        "velocidad": 10,
+        "progreso": 60
+      }
+    ],
+    "ganador": {
+      "id": 1,
+      "velocidad": 17
+    },
+    "horas": 6
+  },
+  {
+    "id": 2,
+    "numeroCorredores": 3,
+    "distancia": 100,
+    "corredores": [
+      {
+        "id": 1,
+        "velocidad": 12,
+        "progreso": 84
+      },
+      {
+        "id": 2,
+        "velocidad": 6,
+        "progreso": 42
+      },
+      {
+        "id": 3,
+        "velocidad": 16,
+        "progreso": 112
+      }
+    ],
+    "ganador": {
+      "id": 3,
+      "velocidad": 16
+    },
+    "horas": 7
+  }
+]
