@@ -150,7 +150,6 @@ app.use((req, res) => {
     res.status(404).json({ mensaje: 'Ruta no encontrada' });
 });
 
-// Iniciar servidor
-app.listen(PORT, () => {
-    console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Servidor ejecutándose en http://0.0.0.0:${PORT}`);
 });
